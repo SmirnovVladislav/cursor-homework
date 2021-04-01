@@ -8,7 +8,7 @@ body {
 .caption {
     font-weight: 600;
 }
-.box1 {
+.box1, .box2 {
     background: rgb(247, 197, 197, 0.6);
     width: 350px;
     padding: 10px;
@@ -16,14 +16,7 @@ body {
   margin: auto;
   
 }
-.box2 {  background: rgb(247, 197, 197, 0.6);
-    width: 350px;
-    padding: 10px;
-    border: 2px solid #000;
-    margin: auto;
 
-
-}
 p {
     text-align: center;
 }
