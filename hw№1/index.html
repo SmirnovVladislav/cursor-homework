@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Command Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Шпаргалка по Git</h1>
+
+    <h2>Base</h2>
+
+    <ol>
+        <li><strong>"git config --global user.name blabla"</strong> - задает глобальное имя пользователя;</li>
+        <li><strong>"git config --global user.email blabal@bla"</strong> - задает глобальный имейл;</li>
+        <li><strong>"git init"</strong> - инициирует пустой репозиторий в текущей дериктории;</li>
+        <li><strong>"git status"</strong> - инструмент используемый для определения какие файлы в каком состоянии находяться;</li>
+    
+            
+        <li><strong>"git add"</strong> - при помощи этой комманды мы добавляем файлы в коммит;</li>
+        <li><strong>"git commit"</strong> - при помощи этой комманды мы сохраняем изменения;</li>
+        <li><strong>"git log"</strong> - просмотр и изучение истории файлов проекта;</li>
+        <li><strong>"git checkout"</strong> - переключает на вибранную ветку и обновляет директорию до её состояния;</li>
+        <li><strong>"git branch"</strong> - создает новую ветку;</li>
+        <li><strong>"git push"</strong> - загружает все изменения локальной ветки в удаленный репозиторий;</li>
+        <li><strong>"git pull"</strong> - Загружает историю из удалённого репозитория и объединяет её с локальной; </li>
+        <li><strong>"git merge"</strong> - объединяет ветки;</li>
+        <li><strong>"git clone"</strong> - викачивает репозиторий со всей историей изменений;</li>
+
+    </ol>
+    
+    <h3><mark>.gitignore Файл</mark></h3>
+        <p><b>".gitignore"</b> - это файл при помощи которого от системы контроля версий Git можно спрятать файлы.</p>
+
+        <h2>Advanced</h2>
+
+        <ol>
+            <li><strong>"git revert"</strong> - восстанавливает коммит путем создания нового, изменения в нем противоположны коммиту, который нужно отменить;</li>
+            <li><strong>"git reset"</strong> - Отменяет индексацию указанного файла, при этом сохраняет его содержимое;</li>
+            <li><strong>"git rebase"</strong> - с помощью этой комманды, мы можем взять все комиты из одной ветки и в том же порядке применить их к другой;</li>
+            <li><strong>"git cherry-pick"</strong> - эта комманда  берёт изменения, вносимые одним коммитом, и пытается повторно применить их в 
+         виде нового коммита в текущей ветке. Эта возможность полезна в ситуации, когда нужно забрать парочку коммитов из другой ветки, а не сливать ветку целиком со всеми внесенными в нее изменениями;</li>
+            <li><strong>"git stash"</strong> - эта комманда предназначена для того, чтобы поместить текущие изменения, которые вы выполнили в файлах, в отдельное 
+                хранилище, и вернуть файлы к исходному состоянию. То есть git stash прячет изменения в файлах и сохраняет эти изменения отдельно, чтобы потом можно было их вернуть.;</li>
+        </ol>
+
+        <h2>Подключение GitHub через SSH:</h2>
+
+        <img src="pic01.png" alt="подключение GitHub через SSH" title="подключение GitHub через SSH" width="500" height="520">
+</body>
+</html>
