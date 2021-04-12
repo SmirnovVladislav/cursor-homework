@@ -2,6 +2,7 @@
 body {
     
     font-family: 'Lato', sans-serif;
+   
 }
 
 
@@ -100,20 +101,22 @@ input {
 
   
 
-.flex {
+
+  
+  .stores-icons {
     display: flex;
 }
-.flex_column {
+.body {
     display: flex;
     flex-direction: column;
    
 }
 
-.justify_content_sa {
+.justify_content_around {
     justify-content: space-around;
 }
 
-.justify_content_sb {
+.justify_content_between {
     justify-content: space-between; 
 }
 
@@ -129,13 +132,13 @@ input {
 
 
 
-.section_1 {
+.content_part_1 {
     padding: 8vw 20vw 8vw 5vw; 
     width: 100%;
     align-items: center;
 }
 
-.section_2 {
+.content_part_2 {
     padding: 8vw 5vw 12vw 5vw; 
     width: 100%;
 }
@@ -163,7 +166,7 @@ footer {
     width: 145%;
 }
 
-.reg_form {
+.registration_form {
     width: 40vw;
 }
 .change:hover{
